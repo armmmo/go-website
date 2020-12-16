@@ -134,7 +134,7 @@
 </head>
 
 <body class="lang-pt-br ltr ">
-    <div class="cart-off">
+    <div id="nav" class="cart-off">
         <div id="navigation2" class=" bestwishes2020">
             <div class="z-index-200 fixed-container">
                 <div class="w-100 z-index-200 navigation-holder d-flex flex-column colored-transparent">
@@ -244,6 +244,7 @@
             </div>
         </div>
     </div>
+
     <div id="modal-web-hosting" class="bestwishes-2020">
         <modal-web-hosting background="bw2020-popup-modal-bg" :unit="&quot;\/m\u00eas&quot;" :button-id="&quot;homepage-blackfriday2020-modal-button&quot;" :messages="{&quot;heading&quot;:&quot;PROMO\u00c7\u00c3O de Boas Festas&quot;,&quot;price&quot;:&quot;&lt;span class=\&quot;price__symbol pricing-table-price__symbol currency-selector-symbol\&quot;&gt;R$&lt;\/span&gt;&lt;span class=\&quot;price__price pricing-table-price__price currency-selector-price\&quot;&gt;7,79&lt;\/span&gt;&quot;,&quot;period&quot;:&quot;\/m\u00eas&quot;,&quot;subheading&quot;:&quot;Hospedagem de Site + Dom\u00ednio Gr\u00e1tis&quot;,&quot;subheading2&quot;:&quot;SSL e CloudFlare gr\u00e1tis inclu\u00eddos&quot;,&quot;button&quot;:&quot;Comece Agora&quot;,&quot;redirect&quot;:&quot;\/hospedagem-de-sites&quot;}" timer-end="2020-12-21 09:00:00" :days="04" :hours="18" :minutes="34" :seconds="55" :timertext="[&quot;dias&quot;,&quot;horas&quot;,&quot;minutos&quot;,&quot;segundos&quot;]" :ga-promo-view-data="{&quot;id&quot;:&quot;BEST_WISHES_SALE_WWW_PREMIUM_HOSTING_POPUP&quot;,&quot;name&quot;:&quot;Websites Best Wishes Sale Premium Hosting Popup&quot;,&quot;creative&quot;:&quot;websites_bw_premium_hosting_sale&quot;,&quot;position&quot;:&quot;slot1&quot;}" :shadow-modifier="&quot;bw-text-shadow&quot;"></modal-web-hosting>
     </div>
@@ -1363,9 +1364,26 @@
         <script type="text/javascript">
         (function() { window['__CF$cv$params'] = { r: '6029124fedc2f04d', m: '8f198e96d7e3c3da1498dddd350e3e932aaf4e9a-1608128705-1800-AQMWlpKl7DEVQ6t4UyJNn8Sp8qESF4rf1uZTc0ZpCoCipNd3DT3UnlsN8JxUtp1zjMRv3i0/AE9UzuAgmBaDdL4J4FNXkptW+lWktT+0j1WA2gINYurfUSWUNm0Im4hfF4SgFV2vozZsdYX70XsGt+c=', s: [0xa0ab7cead4, 0xcf119154ca], } })();
         </script>
-        <center>
-            <font size="2">This is the free demo result. For a full version of this website, please go to <a href="https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/">https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/</a></font>
-        </center>
+       
+        <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+          var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos && currentScrollPos != 0 ) {
+            document.getElementById("nav").style.top = "0";
+            document.getElementById("nav").style.boxShadow = "0px 0px 8px 0px rgba(22,35,72,.35)";
+          } else if (currentScrollPos > 2000 ) {
+            document.getElementById("nav").style.top = "-100px";
+          }else  if ( currentScrollPos != 0 ){
+            document.getElementById("nav").style.boxShadow = "0px 0px 8px 0px rgba(22,35,72,.35)";
+            document.getElementById("nav").style.padding = "0px 0";
+          } else {
+            document.getElementById("nav").style.boxShadow = "none";
+             document.getElementById("nav").style.padding = "7.5px 0";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
 </body>
 
 </html>
