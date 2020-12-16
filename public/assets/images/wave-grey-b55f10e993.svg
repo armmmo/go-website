@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 1920 1030" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Path 12</title>
+<desc>Created with Sketch.</desc>
+<defs>
+<rect id="a" width="1920" height="1030"/>
+</defs>
+<g fill="none" fill-rule="evenodd">
+<g transform="translate(0 -776)">
+<g transform="translate(0 776)">
+<mask id="b" fill="white">
+<use xlink:href="#a"/>
+</mask>
+<use fill="#FFFFFF" xlink:href="#a"/>
+<path d="m-104.5 550.99c349.33-77.667 710.33-64.833 1083 38.5 372.67 103.33 729.67 74.833 1071-85.5v525.25h-2189.5l35.501-478.25z" fill="#F7F7F7" mask="url(#b)"/>
+</g>
+</g>
+</g>
+</svg>
