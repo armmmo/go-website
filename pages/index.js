@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+// import '../public/assets/scripts.js';
 
 export default function Home() {
   return (
@@ -75,15 +76,6 @@ export default function Home() {
 
       <script type="text/javascript" src="/assets/scripts.js"></script>
 
-      {/*<script type="application/ld+json">
-          { "@context": "http:\/\/schema.org\/", "@type": "Service", "name": "WordPress Hosting", "description": "Hospedagem WordPress r\u00e1pida e f\u00e1cil de instalar. Planos anuais Premium e Business com dom\u00ednio gr\u00e1tis - promo\u00e7\u00e3o imperd\u00edvel!", "brand": { "@type": "Brand", "name": "Hostinger" }, "offers": [{ "@type": "AggregateOffer", "name": "Hospedagem WordPress Single", "priceCurrency": "BRL", "lowPrice": 4.4900000000000002 }, { "@type": "AggregateOffer", "name": "Hospedagem WordPress Premium", "priceCurrency": "BRL", "lowPrice": 7.79 }, { "@type": "AggregateOffer", "name": "Hospedagem WordPress Business", "priceCurrency": "BRL", "lowPrice": 17.489999999999998 }] }
-      </script>
-      <script type="application/ld+json">
-          { "@context": "http:\/\/schema.org", "@type": "Organization", "name": "hostinger", "legalName": "Hospedagem de sites Hostinger", "foundingDate": "2004", "logo": "https:\/\/www.hostinger.com.br\/assets\/images\/logo-400x400-7d3d5942f5.png", "image": "https:\/\/www.hostinger.com.br\/assets\/images\/logo-400x400-7d3d5942f5.png", "url": "https:\/\/www.hostinger.com.br\/", "address": { "@type": "PostalAddress", "streetAddress": "R. Joaquim Carneiro, 120 - Capoeiras", "addressLocality": "Florian\u00f3polis", "postalCode": "88085-120", "addressCountry": "BRA" }, "contactPoint": { "@type": "ContactPoint", "contactType": "Sales", "email": "mailto:wesly@hostinger.com", "url": "https:\/\/www.hostinger.com.br\/contatos" }, "sameAs": ["https:\/\/www.facebook.com\/Hostinger.com.br\/", "https:\/\/plus.google.com\/+hostingerglobal", "https:\/\/twitter.com\/HostingerBrasil"] }
-      </script>
-      <script type="application/ld+json">
-          { "@context": "http:\/\/schema.org", "@type": "WebSite", "name": "hostinger", "alternateName": "Hostinger Brasil", "url": "https:\/\/www.hostinger.com.br\/", "image": { "@type": "ImageObject", "url": "https:\/\/www.hostinger.com.br\/assets\/images\/logo-400x400-7d3d5942f5.png", "height": "400", "width": "400" }, "sameAs": ["https:\/\/www.facebook.com\/Hostinger.com.br\/", "https:\/\/plus.google.com\/+hostingerglobal", "https:\/\/twitter.com\/HostingerBrasil"], "potentialAction": { "@type": "SearchAction", "target": "https:\/\/www.hostinger.com.br\/como\/procurar?query={search_term_string}", "query-input": "required name=search_term_string" } }
-      </script>*/}
 
     </Head>
 
