@@ -84,7 +84,9 @@ export default function Home() {
                 <div class="z-index-200 fixed-container">
                     <div class="w-100 z-index-200 navigation-holder d-flex flex-column colored-transparent">
                         <div class="pt-20 pb-20 pl-15 pr-15 pr-40-sm pl-40-sm d-flex align-items-center justify-content-between">
-                            <div class="d-flex align-items-center"><a data-v-d95ab4c8="" href="/" class="mr-40-sm mr-10"><svg data-v-d95ab4c8="" width="150" height="30" viewBox="0 0 150 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-none d-sm-block">
+                            <div class="d-flex align-items-center">
+                              <a data-v-d95ab4c8="" href="/" class="mr-40-sm mr-10">
+                                <svg data-v-d95ab4c8="" width="150" height="30" viewBox="0 0 150 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-none d-sm-block">
                                         <path data-v-d95ab4c8="" fill-rule="evenodd" clip-rule="evenodd" d="M45.1114 8.89822H47.9253V21.3612H45.1114V16.0739H40.3857V21.3612H37.5718V8.89822H40.3857V13.6637H45.1114V8.89822Z"></path>
                                         <path data-v-d95ab4c8="" fill-rule="evenodd" clip-rule="evenodd" d="M54.4949 15.1209C54.4949 15.732 54.5698 16.2835 54.7201 16.7752C54.8704 17.267 55.0871 17.6895 55.3698 18.0431C55.6518 18.3972 55.9978 18.6695 56.4069 18.8612C56.8155 19.0535 57.2843 19.1496 57.8137 19.1496C58.3305 19.1496 58.7966 19.0535 59.2117 18.8612C59.6261 18.6695 59.9752 18.3972 60.2574 18.0431C60.5399 17.6895 60.7568 17.267 60.9071 16.7752C61.0574 16.2835 61.1326 15.732 61.1326 15.1209C61.1326 14.5091 61.0574 13.9546 60.9071 13.4569C60.7568 12.9595 60.5399 12.5342 60.2574 12.1802C59.9752 11.8266 59.6261 11.5535 59.2117 11.3621C58.7966 11.1702 58.3305 11.0744 57.8137 11.0744C57.2843 11.0744 56.8155 11.1732 56.4069 11.3709C55.9978 11.5688 55.6518 11.8447 55.3698 12.1985C55.0871 12.5521 54.8704 12.9776 54.7201 13.475C54.5698 13.9729 54.4949 14.5214 54.4949 15.1209ZM64.0369 15.1209C64.0369 16.1877 63.8773 17.1262 63.5593 17.935C63.2402 18.7445 62.8041 19.4219 62.2513 19.9672C61.6982 20.5131 61.0397 20.9235 60.2762 21.1991C59.5128 21.4753 58.6918 21.6131 57.8144 21.6131C56.9604 21.6131 56.1551 21.4753 55.3974 21.1991C54.6398 20.9235 53.9782 20.5131 53.4133 19.9672C52.8478 19.4219 52.4034 18.7445 52.0786 17.935C51.754 17.1262 51.5913 16.1877 51.5913 15.1209C51.5913 14.0537 51.7598 13.1154 52.0965 12.3064C52.4329 11.4969 52.8872 10.8164 53.4584 10.2649C54.0292 9.71341 54.6907 9.29998 55.4426 9.02411C56.1937 8.74799 56.9846 8.60993 57.8144 8.60993C58.6679 8.60993 59.4734 8.74799 60.2313 9.02411C60.9887 9.29998 61.65 9.71341 62.2152 10.2649C62.7802 10.8164 63.2253 11.4969 63.5499 12.3064C63.8748 13.1154 64.0369 14.0537 64.0369 15.1209Z"></path>
                                         <path data-v-d95ab4c8="" fill-rule="evenodd" clip-rule="evenodd" d="M71.1123 19.2212C71.5091 19.2212 71.8367 19.1885 72.0952 19.1221C72.3537 19.0565 72.5613 18.9667 72.7174 18.852C72.8735 18.7386 72.982 18.6038 73.0423 18.4479C73.1025 18.2922 73.1326 18.1182 73.1326 17.9263C73.1326 17.5189 72.9399 17.1797 72.5552 16.9104C72.1704 16.6403 71.5091 16.3498 70.5713 16.0375C70.1623 15.8942 69.7534 15.7289 69.3446 15.5433C68.9358 15.3578 68.569 15.1239 68.2444 14.842C67.9201 14.5603 67.6553 14.2186 67.451 13.8164C67.2464 13.4151 67.1443 12.9267 67.1443 12.3511C67.1443 11.7755 67.2525 11.2569 67.4689 10.7954C67.6855 10.3337 67.992 9.94143 68.389 9.61728C68.7857 9.29338 69.2664 9.04517 69.8316 8.87089C70.3968 8.69737 71.0339 8.60986 71.7436 8.60986C72.5853 8.60986 73.3129 8.70039 73.9263 8.87995C74.5391 9.05975 75.0443 9.25792 75.441 9.47368L74.6297 11.6857C74.2806 11.5059 73.8927 11.3469 73.4662 11.2089C73.0392 11.0713 72.5252 11.0019 71.9242 11.0019C71.2506 11.0019 70.7666 11.0955 70.472 11.2811C70.1774 11.4669 70.0298 11.7518 70.0298 12.1351C70.0298 12.3632 70.0843 12.5553 70.1925 12.7107C70.3005 12.8666 70.4541 13.0074 70.6523 13.1334C70.8508 13.2592 71.0793 13.3733 71.3381 13.4749C71.5961 13.577 71.8818 13.6817 72.1948 13.7895C72.8438 14.0297 73.409 14.2663 73.8902 14.5002C74.3709 14.7341 74.7709 15.0069 75.0897 15.3185C75.408 15.6301 75.6456 15.996 75.8022 16.4157C75.9581 16.8357 76.0365 17.3449 76.0365 17.9439C76.0365 19.107 75.6274 20.0093 74.8098 20.6506C73.9921 21.2924 72.7595 21.6133 71.1123 21.6133C70.5592 21.6133 70.0601 21.5801 69.6152 21.5142C69.1703 21.4478 68.7766 21.3671 68.4339 21.2712C68.0913 21.1754 67.7965 21.0736 67.5498 20.9657C67.3034 20.8576 67.0961 20.756 66.9276 20.6597L67.7216 18.4298C68.0939 18.634 68.5539 18.8166 69.1015 18.978C69.6483 19.1402 70.3189 19.2212 71.1123 19.2212Z"></path>
@@ -106,13 +108,9 @@ export default function Home() {
                                         <path data-v-d95ab4c8="" fill-rule="evenodd" clip-rule="evenodd" d="M85.0142 14.2409V5.93221H90.6417V7.50277H86.8899V9.13318H90.2208V10.668H86.8899V12.6703H90.9184V14.2409H85.0142Z"></path>
                                         <path data-v-d95ab4c8="" fill-rule="evenodd" clip-rule="evenodd" d="M95.7309 7.43079C95.5946 7.43079 95.4727 7.43482 95.3643 7.4427C95.2563 7.45091 95.154 7.45896 95.0577 7.46667V9.72058H95.5868C96.2919 9.72058 96.797 9.63307 97.1014 9.45703C97.4062 9.2815 97.5583 8.98157 97.5583 8.55775C97.5583 8.15002 97.404 7.86065 97.0954 7.68831C96.7868 7.5168 96.332 7.43079 95.7309 7.43079ZM95.6233 5.83609C96.8739 5.83609 97.8316 6.05773 98.497 6.5015C99.1623 6.94511 99.4952 7.63449 99.4952 8.56982C99.4952 9.15308 99.3611 9.62703 99.0924 9.99067C98.824 10.3541 98.4371 10.6401 97.932 10.8477C98.1005 11.0558 98.2767 11.2935 98.461 11.5612C98.6453 11.8291 98.8279 12.1089 99.0083 12.4007C99.1885 12.6924 99.3631 12.996 99.5314 13.3115C99.6995 13.6275 99.8559 13.9372 100 14.2408H97.9031C97.7501 13.969 97.5951 13.6934 97.4385 13.4136C97.2815 13.134 97.1209 12.862 96.9556 12.5982C96.7912 12.3343 96.6276 12.0848 96.467 11.8491C96.3058 11.613 96.1447 11.3993 95.9841 11.2071H95.058V14.2408H93.1824V6.05169C93.5911 5.97223 94.014 5.91589 94.4508 5.88421C94.8877 5.85202 95.2784 5.83609 95.6233 5.83609Z"></path>
                                         <path data-v-d95ab4c8="" fill-rule="evenodd" clip-rule="evenodd" d="M0.000249566 9.36418V0.000497794L4.72619 2.52047V6.73926L10.9824 6.74227L15.785 9.36418H0.000249566ZM12.2616 5.96706V0L17.115 2.45727V8.78646L12.2616 5.96706ZM12.2616 17.4118V13.2294L5.9572 13.225C5.96308 13.2529 1.07489 10.5612 1.07489 10.5612L17.115 10.6365V20L12.2616 17.4118ZM0 17.4118L0.000168141 11.2928L4.72611 14.0455V19.8689L0 17.4118Z"></path>
-                                    </svg></a>
-                                <div id="hmenu-language-selector" data-qa="locale-menu" class="hover-opacity-6 d-flex fs-17 navigation-color cursor-pointer align-items-center language-selector-ab"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#1D1E20" width="24px" height="24px">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"></path>
-                                    </svg>
-                                    <p class="ml-5 fs-14 fs-17-sm d-flex align-self-center">BR</p>
-                                </div>
+                                </svg>
+                              </a>
+
                             </div>
                             <div class="align-items-center d-none d-xl-flex pl-30-md">
                                 <div class="position-relative d-none d-xl-block" material="storefront">
@@ -736,183 +734,8 @@ export default function Home() {
         </div>
       </div>
     </div>
-    <div className="section-spaces">
-      <div className="container">
-        <div className="text-center align-items-center justify-content-center mb-30 mb-60-lg">
-          <h2 className="text-h-meteorite-dark mb-15 mb-30-lg">Por que a Hostinger?</h2>
-          <p className="subtitle text-h-meteorite-dark w-100 w-60-md m-auto">Aqui nós entendemos que criar sites modernos requer um ambiente de hospedagem com estabilidade, segurança e otimizado para o CMS WordPress</p>
-        </div>
-        <div id="cardGroup">
-          <div className="nav row justify-content-center flex-wrap pr-15 pr-0-md pl-15 pl-0-md align-items-end" role="tablist">
-            <div className="nav-item col-6 col-lg-3 mb-30 pr-0 pl-0 cursor-pointer flex-column"><a className="card-hover-link-wp d-block active" href="#text-color-optimised-for-wordpress" data-toggle="tab" aria-controls="text-color-optimised-for-wordpress" aria-selected="true" role="tab">
-                <div onclick="playVideosOnClick()" className="d-flex align-items-center justify-content-center transition-3 text-center pt-10 pb-10">
-                  <div>
-                    <p className="fw-800 fs-18 text-h-dark-gray mt-5 text-color-optimised-for-wordpress">Otimizado</p>
-                  </div>
-                </div>
-              </a></div>
-            <div className="nav-item col-6 col-lg-3 mb-30 pr-0 pl-0 cursor-pointer flex-column"><a className="card-hover-link-wp d-block " href="#text-color-enhanced-security" data-toggle="tab" aria-controls="text-color-enhanced-security" aria-selected="false" role="tab">
-                <div onclick="playVideosOnClick()" className="d-flex align-items-center justify-content-center transition-3 text-center pt-10 pb-10">
-                  <div>
-                    <p className="fw-800 fs-18 text-h-dark-gray mt-5 text-color-enhanced-security">Seguro</p>
-                  </div>
-                </div>
-              </a></div>
-            <div className="nav-item col-6 col-lg-3 mb-30 pr-0 pl-0 cursor-pointer flex-column"><a className="card-hover-link-wp d-block " href="#text-color-fast" data-toggle="tab" aria-controls="text-color-fast" aria-selected="false" role="tab">
-                <div onclick="playVideosOnClick()" className="d-flex align-items-center justify-content-center transition-3 text-center pt-10 pb-10">
-                  <div>
-                    <p className="fw-800 fs-18 text-h-dark-gray mt-5 text-color-fast">Rápida</p>
-                  </div>
-                </div>
-              </a></div>
-            <div className="nav-item col-6 col-lg-3 mb-30 pr-0 pl-0 cursor-pointer flex-column"><a className="card-hover-link-wp d-block " href="#text-color-developer-friendly" data-toggle="tab" aria-controls="text-color-developer-friendly" aria-selected="false" role="tab">
-                <div onclick="playVideosOnClick()" className="d-flex align-items-center justify-content-center transition-3 text-center pt-10 pb-10">
-                  <div>
-                    <p className="fw-800 fs-18 text-h-dark-gray mt-5 text-color-developer-friendly">Amigável para Desenvolvedor</p>
-                  </div>
-                </div>
-              </a></div>
-          </div>
-          <div className="tab-content">
-            <div className="tab-pane fade active show" id="text-color-optimised-for-wordpress" role="tabpanel">
-              <div className="row justify-content-center text-center text-lg-left">
-                <div className="col-lg-5 col-12 order-2 order-lg-1 mt-40 mt-0-lg d-flex align-items-center">
-                  <div>
-                    <h2 className="mb-15 mb-30-lg">Otimizado para WordPress</h2>
-                    <p className="text-h-dark-gray mb-15 mb-30-lg paragraph">Nós contribuímos ativamente para a base de códigos do WordPress, então você pode ter certeza que conhecemos todos os detalhes desse CMS global.</p>
-                    <p className="text-h-dark-gray mb-15 mb-30-lg paragraph">Nossa rica paleta de recursos vai permitir que você gerencie seu site no WordPress com facilidade.</p>
-                    <p className="text-h-dark-gray mb-15 mb-30-lg paragraph">Vamos sempre refinar nossa plataforma para garantir 99,99% de uptime. Desde os nossos servidores até a nossa equipe de suporte, e através dos nossos plugins de cache pré-instalados, vamos garantir que tudo esteja customizado para a melhor experiência de hospedagem WordPress.</p>
-                  </div>
-                </div>
-                <div className="offset-lg-1 col-12 col-sm-8 col-lg-6 order-1 order-lg-2 d-flex justify-content-center"><video className="play-video-on-scroll play-video-on-click d-none d-xl-block lazy-load-poster lazy-loaded-video" loop muted="muted" preload="metadata" width="100%" height="100%" data-poster="//www.hostinger.com.br/assets/images/wordpress-hosting-2020/first-frame/optimized-for-wordpress-1st-frame-3fc9380266.jpg" poster="//www.hostinger.com.br/assets/images/wordpress-hosting-2020/first-frame/optimized-for-wordpress-1st-frame-3fc9380266.jpg">
-                    <source src="//www.hostinger.com.br/assets/videos/wordpress-hosting-2020/optimized-for-wordpress-c050843f6b.mp4" type="video/mp4" /></video><img className="d-block d-xl-none pl-15 pl-0-md pr-15 pr-0-md w-100-lg lazy-load-image" width="290px" height="100%" data-src="assets/images/wordpress-hosting-2020/optimized-for-wordpress-mobile-85155eeb8a.jpg" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAoACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP7zNQe4l1rR7y31+Cz0yFtQgvNMJtiNYuIAWKJPI4lt5NKFreSzQ2wLTBZkvPLjtTXo0HSjhMXRqYCdbEzVCpSxVpp4OlKyu6aXLOOKdWjGE6llTvGVLmlVRm03JNOy0Vr2u0239yXz2eiNxdV0x1V0v7NkdQystxEysrDKsrBiGUggggkEcg4rjdCsm06NVNNpp05pprRppq6ae6NC09vbvFJA8ELwzLIksLxI0UqSgiVZIypR1kDESKwIcEhgQTURnKEozhKUZwcZQnFuMoyi04yjJNOLi0nFppppW2Ay08NeHYkSOPQNFjjjVUjjTSrFEREAVURVgCqqqAqqoAAAAAArrlmWYyblLH42UpNylKWKrtybd223Uu23q29Wxcq7L7kf/9k=" alt="Otimizado" /></div>
-              </div>
-            </div>
-            <div className="tab-pane fade " id="text-color-enhanced-security" role="tabpanel">
-              <div className="row justify-content-center text-center text-lg-left">
-                <div className="col-lg-5 col-12 order-2 order-lg-1 mt-40 mt-0-lg d-flex align-items-center">
-                  <div>
-                    <h2 className="mb-15 mb-30-lg">Segurança Reforçada</h2>
-                    <p className="text-h-dark-gray mb-15 mb-30-lg paragraph">Segurança não é mais uma questão que você, a gente, ou qualquer um pode levar na brincadeira.</p>
-                    <p className="text-h-dark-gray mb-15 mb-30-lg paragraph">Monitoramos todos os sites WordPress em busca de malwares, outras ameaças e possíveis vulnerabilidades.</p>
-                    <p className="text-h-dark-gray mb-15 mb-30-lg paragraph">Nenhuma invasão não autorizada passará sem ser detectada, e nenhuma vulnerabilidade vai durar o suficiente para ser explorada. Vamos tomar medidas proativas para garantir que você se sinta seguro sobre a segurança do seu site WordPress.</p>
-                  </div>
-                </div>
-                <div className="offset-lg-1 col-12 col-sm-8 col-lg-6 order-1 order-lg-2 d-flex justify-content-center"><video className=" play-video-on-click d-none d-xl-block lazy-load-poster" muted="muted" preload="metadata" width="100%" height="100%" data-poster="//www.hostinger.com.br/assets/images/wordpress-hosting-2020/first-frame/secured-1st-frame-406ecf5708.jpg" poster="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAsACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP75rm9uYdQ060i027ube8+1/adQie0W2037PEskIukluI7p/tjsYoPskFxsdGNx5MZV26KdGnOhiKssTSpVKPsfZYecazq4n2k3GfspQpypR9gkp1PbVKd4tKnzyukr6pWet9ei9fXoaVc4woAKAP8A/9k=">
-                    <source src="//www.hostinger.com.br/assets/videos/wordpress-hosting-2020/secured-f687113bb7.mp4" type="video/mp4" /></video><img className="d-block d-xl-none pl-15 pl-0-md pr-15 pr-0-md w-100-lg lazy-load-image" width="290px" height="100%" data-src="assets/images/wordpress-hosting-2020/secured-mobile-d0fa238523.jpg" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAoACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP7fPF1z4huPHF/cWd/4x0+28J6dY6hp0+nPp0Pg1pIBBf6xp2t2j+JrG513Udes7ldPuItS8OazbaFpMMOp+FbnSPEcl1eSZS5nO6ckopNNW5O8k1zauS01i+VWcGpXZ8zjpYqeY1ZU6mPpQwNGnVpTpOlHL248tXEUcRB4unPE1cTTmqU1WwleGGoRjVwU6GLlOo/fK1PpilNpunXEvnz2FlPN8v76a1gkl+TAX948bP8AKAAvPGBilZdkZyo0pS5pUqcpae9KEXLTbVq+nQu0zQ//2Q==" alt="Seguro" /></div>
-              </div>
-            </div>
-            <div className="tab-pane fade " id="text-color-fast" role="tabpanel">
-              <div className="row justify-content-center text-center text-lg-left">
-                <div className="col-lg-5 col-12 order-2 order-lg-1 mt-40 mt-0-lg d-flex align-items-center">
-                  <div>
-                    <h2 className="mb-15 mb-30-lg">Velocidade</h2>
-                    <p className="text-h-dark-gray mb-15 mb-30-lg paragraph">Se sua hospedagem WordPress não é rápida, ela não é relevante. Sabemos que milissegundos importam.</p>
-                    <p className="text-h-dark-gray mb-15 mb-30-lg paragraph">Para te ajudar a vencer a concorrência, usamos o LiteSpeed WebServer - provavelmente o servidor web mais rápido do mundo, especialmente para o WordPress. O LiteSpeed também vem com o LS Cache Plugin que otimiza seu site WordPress para trabalhar com desempenho máximo.</p>
-                    <p className="text-h-dark-gray mb-15 mb-30-lg paragraph">Além disso, os SSDs de ponta em nossos 8 data centers espalhados pelos continentes, garantirão que os visitantes do seu site tenham os melhores tempos de carregamento do setor. Aproveite as nossas versões mais recentes do PHP e HTTP/2 e não deixe de aproveitar essa vantagem!</p>
-                  </div>
-                </div>
-                <div className="offset-lg-1 col-12 col-sm-8 col-lg-6 order-1 order-lg-2 d-flex justify-content-center"><video className=" play-video-on-click d-none d-xl-block lazy-load-poster" muted="muted" preload="metadata" width="100%" height="100%" data-poster="//www.hostinger.com.br/assets/images/wordpress-hosting-2020/first-frame/fast-1st-frame-70cd7afc69.jpg" poster="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAsACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP79iTkcfh6/T6deSKAHUAFABQB//9k=">
-                    <source src="//www.hostinger.com.br/assets/videos/wordpress-hosting-2020/fast-e7ed6ba431.mp4" type="video/mp4" /></video><img className="d-block d-xl-none pl-15 pl-0-md pr-15 pr-0-md w-100-lg lazy-load-image" width="290px" height="100%" data-src="assets/images/wordpress-hosting-2020/fast-mobile-b11c68c723.jpg" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAoACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP7Zvj58dU/Z/wDB2p/EXxBoes634a0zUNI06S30byW1OW/1jxHFpcMcdvLGENhHZTJI8+8zGTdhQgEjfoPA/BUuOs4wnD2X4zCYPM8XTxVWFTGNxwsaGFy+eJnKVSM+b27qwlFU+VQ5bauTcVyV8QsPSqVZ83LT1aS1f7yyitOqas7276HuXhLxDb+LvCvhnxXZwT2tp4n8P6N4htbW6AFzbW+tadbalBBcBflE8MVyscoXgSK2OK+OzbL6mUZrmeVVqlOrVyzMMZl9WrSbdKpUwWJqYadSm3q6c5UnKDevK0b0airUqVWKaVWnCok90pxUkn5pPXzNi6tLS+hNve2tveW7MrNBdQx3ELMjBkYxSq6FkYBlJXKsARgiuKnVqUZqpSqTpTV0p05yhNXVnaUWmrrR66rQ0tfR6omREiRIokSOONFSONFCIiIAqIiKAqoqgKqqAFAAAAFTKTk3KTcpSblKUm25Nu7bb1bb1berYH//2Q==" alt="Rápida" /></div>
-              </div>
-            </div>
-            <div className="tab-pane fade " id="text-color-developer-friendly" role="tabpanel">
-              <div className="row justify-content-center text-center text-lg-left">
-                <div className="col-lg-5 col-12 order-2 order-lg-1 mt-40 mt-0-lg d-flex align-items-center">
-                  <div>
-                    <h2 className="mb-15 mb-30-lg">Amigável para Desenvolvedor</h2>
-                    <p className="text-h-dark-gray mb-15 mb-30-lg paragraph">Se você gosta de ajustar seus arquivos de vez em quando, você vai se surpreender.</p>
-                    <p className="text-h-dark-gray mb-15 mb-30-lg paragraph">Nossa hospedagem WordPress permite que desenvolvedores tenham uma experiência perfeita de gerenciamento de sites.</p>
-                    <p className="text-h-dark-gray mb-15 mb-30-lg paragraph">Damos o controle que você quer com acesso SSH, Git, WP_CLI, SFTP, phpMyAdmin, um ambiente de staging e várias versões do PHP. Se você precisar de assistência técnica, pode contar conosco. Nossos especialistas em WordPress estão sempre à sua disposição!</p>
-                  </div>
-                </div>
-                <div className="offset-lg-1 col-12 col-sm-8 col-lg-6 order-1 order-lg-2 d-flex justify-content-center"><video className=" play-video-on-click d-none d-xl-block lazy-load-poster" muted="muted" preload="metadata" width="100%" height="100%" data-poster="//www.hostinger.com.br/assets/images/wordpress-hosting-2020/first-frame/developer-friendly-1st-frame-b1ffdea172.jpg" poster="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAsACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP7dvi/8VPFngTwh491rSNI0Own8OJax6Tr3iuW6ufD0jXUtjDLfXmkaJOmv3sdgb8eTp9tLp6azdWk1i+s6EJY71fq+E8jwed55lmXY2pilh8W6k6scBUw0cU40qdWo6UJ4pOjh5zVJuVWdPEexpP2yw+Iko0JkHepGMk2m9oW5nvaN5e7FvZtpqO9nser+C9dufEng7wn4iuha/ate8M6DrVz9jRo7Tz9U0u1vpvssbXV6yW3mTt5CNeXZWLaDczkea/hZnhoYLMswwdNylTwmOxeGhKbvNwoV6lKLk/Z0rycYJyfsqd3d+zh8KclZtWas2rPda7Pz7nV1wiCgD//Z">
-                    <source src="//www.hostinger.com.br/assets/videos/wordpress-hosting-2020/developer-friendly-0cfaea2ac1.mp4" type="video/mp4" /></video><img className="d-block d-xl-none pl-15 pl-0-md pr-15 pr-0-md w-100-lg lazy-load-image" width="290px" height="100%" data-src="assets/images/wordpress-hosting-2020/developer-friendly-mobile-acb0bee546.jpg" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAoACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AO4+Kf8AwW3/AOCpngL4+/HTwnf+I9d0XwJ4T+MPjzw14JR/2cvB8NsvhPSfE+s6fo8bavqnge4u9RWCxs7dI9UeSf7fHi4kuC8yPL/UuA8M+A8XlGV4hRpyxdfL8LXxX/CtiJN1qlClObVOnioqD55TcoWSg3GKWjO5UabjFpJtpXXM97a9VvfS3Z36X/eH4P8A7e/x38Y/CT4W+LtZ8UifV/FPw68EeI9VnPg7w7aGbUtc8M6Zqd9KbWDQoYbYyXV1K/2eGGKKHPlxxoihR+V5jwrlWGzDHYelTXsqGMxVGn++rv3KVecIaus2/ditW23u3c53Cza5Fo39tf5n7v1+XGIUAf/Z" alt="Amigável para Desenvolvedor" /></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="section-spaces">
-      <div className="ghost-white pt-50 pb-50 pb-100-lg pt-100-lg">
-        <div className="container">
-          <div className="row justify-content-center justify-content-lg-between align-items-center">
-            <div className="col-8 col-lg-5 order-1 order-lg-1"><video className="play-video-on-scroll d-none d-xl-block shadow border-radius-15 lazy-load-poster lazy-loaded-video" muted="muted" preload="metadata" width="100%" height="auto" data-poster="//www.hostinger.com.br/assets/images/wordpress-hosting-2020/first-frame/perfect-environment-for-your-success-1st-frame-5e6bad71a5.jpg" poster="//www.hostinger.com.br/assets/images/wordpress-hosting-2020/first-frame/perfect-environment-for-your-success-1st-frame-5e6bad71a5.jpg">
-                <source src="//www.hostinger.com.br/assets/videos/wordpress-hosting-2020/perfect-environment-for-your-success-a01e306dec.mp4" type="video/mp4" /></video><img className="d-block d-xl-none mb-30 mb-0-lg shadow border-radius-15 lazy-load-image" width="100%" data-src="assets/images/wordpress-hosting-2020/perfect-environment-for-your-success-1d408114c9.jpg" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAA8ACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP7UNB+LEs/xE8Z/D3wzo9x4j1PQILrUJbN5PEFpNLdw+Lb7SdTsoNY8U3jaIF0vSn0rWCtpc2tldHVxp+mIDpc6j3sxyDiLL8twnEGIy6lHLcx+rUsPiI5ll0r06jq1aEpYGjip4mlOdB1qsqk8HCc+SNKvUTjRtvHDU3TTq1vZw1cWqSk5SlR5uX3feadSCp3k7R5udKzlf6TjhkeON33QO6KzwusbNCzKC0TNHI8bNGSULI7oSCVZlwT5Kr943fr/AMA5PZ+f4f8ABMNtO1Rjqqwm5s5b9dQgivBr01y1iJnlW3vNPtb7Tb+xtrpVMVxFFJY3NvaygW+y5tlcTLC1KUJUqtelGbp1uaVCUZ1aNanTqtxjVlDEYary1qcY+1jTdKcOeUIVbxVV1DmavNcslOdoqXPFxjOSptu0H78FGUo29xycOafLzvpLW3kgtreB55rt4YIonurjyRcXLRxqjXE4t4beATTEGSUQW8EO9m8uGJNqLnVmqlSpONOFKM5znGlT5/Z01KTap0/aTqVOSCfLHnqTnypc05O8nR//2Q==" alt="Nossos Especialistas WordPress Simplesmente Amam Ajudar" /></div>
-            <div className="offset-lg-2 col-12 col-lg-5 order-2 order-lg-2">
-              <div className="d-flex text-center text-lg-left justify-content-center align-items-center align-items-lg-start flex-column">
-                <p className="text-h-gray text-uppercase label opacity-6 mb-15 mb-20-lg">Simples e intuitivo</p>
-                <h2 className="text-h-meteorite-dark mb-20">Cloud Computing é o Ambiente Perfeito Para o Seu Sucesso</h2>
-                <p className="subtitle text-h-meteorite-dark mb-30 mb-50-lg">Qualquer que seja o problema que está enfrentando, grande ou pequeno, técnico ou relacionado ao design, nossos especialistas WordPress podem resolver para você!</p>
-                <div className="d-flex align-items-start col-12 col-md-10 p-0">
-                  <div>
-                    <h5 className="mb-20 text-h-meteorite-dark">Equipe WordPress Dedicada</h5>
-                    <p className="text-h-dark-gray paragraph">Temos um time de especialistas em WordPress altamente experientes e que conhecem o WordPress por completo. Eles estão sempre solucionando erros, adicionando recursos, otimizando o WordPress para uso da comunidade e estão aqui para ajudar você.</p>
-                  </div>
-                </div>
-                <div className="d-flex align-items-start mt-30 mt-40-lg col-12 col-md-10 p-0">
-                  <div>
-                    <h5 className="mb-20 text-h-meteorite-dark">Disponibilidade 24/7</h5>
-                    <p className="text-h-dark-gray paragraph">Nossos especialistas são verdadeiros entusiastas com o compromisso de nunca desistir. Eles não vão descansar até que o problema seja resolvido. Eles trabalham dia e noite, 24/7/365! Não acreditamos em tickets de suporte ou em longas horas de espera. Em média, respondemos dentro de 60 segundos.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
    
-    <div className="section-spaces">
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="d-flex flex-column col-12 col-lg-5 col-sm-10 text-center text-lg-left order-2 order-lg-1 justify-content-center">
-            <p className="text-h-gray text-uppercase label">Mude com facilidade</p>
-            <h2 className="text-h-meteorite-dark mt-15 mt-20-lg"><b>Hospeda um site WordPress em outro lugar?</b></h2>
-            <p className="text-h-dark-gray mt-15 mt-30-lg mb-15 mb-25-lg pl-15 pl-0-md pr-15 pr-0-md paragraph">Você pode mudar seu site WordPress de outro host para sua conta Hostinger usando nossa ferramenta de migração, é muito fácil de usar. Não tá afim? Não se preocupe, nossos especialistas em WordPress podem fazer isso por você! E de graça!</p><a className="text-h-meteorite-dark link hover-text-primary" id="hgr-home_page-provider_section-button-learn_more" href="transferencia-de-dominio.html"><u>Transfira seu site</u></a>
-          </div>
-          <div className="offset-lg-1 col-lg-6 col-sm-8 col-12 order-1 order-lg-2 mt-15 mt-0-md align-content-center"><video className="play-video-on-scroll d-none d-xl-block lazy-load-poster lazy-loaded-video" loop muted="muted" preload="metadata" width="100%" data-poster="//www.hostinger.com.br/assets/images/wordpress-hosting-2020/first-frame/hosting-a-wordpress-website-somewhere-else-1st-frame-48a71d11cd.jpg" poster="//www.hostinger.com.br/assets/images/wordpress-hosting-2020/first-frame/hosting-a-wordpress-website-somewhere-else-1st-frame-48a71d11cd.jpg">
-              <source src="//www.hostinger.com.br/assets/videos/wordpress-hosting-2020/hosting-a-wordpress-website-somewhere-else-05eca3a59f.mp4" type="video/mp4" /></video><img className="d-block d-xl-none mb-30 mb-0-lg m-auto lazy-load-image" width="290px" data-src="assets/images/wordpress-hosting-2020/hosting-a-wordpress-website-somewhere-else-mobile-6e4192eaef.jpg" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAQACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP7uL7T47fWNNC3F7Jsuxd5ubua6Zn1HV725khZ7hpJBa28lyy2FqjLDYQQ21rapHbW8cQ9jBS5cBiopJ86xGru3H91CV4tu6vrG2yi3FJK1om7zje20VokttFouul2929XqztkXYipuZ9qqu5zl22gDcxwMscZY4GSScV45Z//Z" alt="Template" /></div>
-        </div>
-      </div>
-    </div>
-    <div className="section-spaces">
-      <div className="container">
-        <div className="row text-center text-lg-left justify-content-center">
-          <div className="col-xl-4 col-md-6 col-sm-12 mb-30 mb-0-xl"><img className="mb-30 lazy-load-image lazy-loaded-src" width="290px" data-src="assets/images/wordpress-hosting-2020/staging-tool-018b2e290e.jpg" src="assets/images/wordpress-hosting-2020/staging-tool-018b2e290e.jpg" alt="30 Dicas de SEO Para WordPress" />
-            <div className="p-0">
-              <div>
-                <div>
-                  <h5 style={{lineHeight: '2.5rem'}} className="mh-0 mh-60-md mh-0-xxl mb-15 mb-5-md mb-20-xxl">Ambiente Staging<span className="label text-white background-content-lilac border-radius-15 pt-5 pb-5 pr-10 pl-10 ml-10 white-space-no-wrap 1">Em breve</span></h5>
-                  <p className="text-h-dark-gray paragraph">Por que fazer mudanças para o seu site que está no ar, quando você pode fazê-las num ambiente de réplica e então deixá-las online com o apertar de um botão? Nossa ferramenta de staging facilita a vida dos desenvolvedores, sejam eles iniciantes ou experientes.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-md-6 col-sm-12 mb-30 mb-0-xl"><img className="mb-30 lazy-load-image lazy-loaded-src" width="290px" data-src="assets/images/wordpress-hosting-2020/automatic-updates-8f2ff406ef.jpg" src="assets/images/wordpress-hosting-2020/automatic-updates-8f2ff406ef.jpg" alt="Tutorial WordPress" />
-            <div className="p-0">
-              <div>
-                <div>
-                  <h5 style={{lineHeight: '2.5rem'}} className="mh-0 mh-60-md mh-0-xxl mb-15 mb-5-md mb-20-xxl">Atualizações Automáticas<span className="label text-white background-content-lilac border-radius-15 pt-5 pb-5 pr-10 pl-10 ml-10 white-space-no-wrap d-none">Em breve</span></h5>
-                  <p className="text-h-dark-gray paragraph">Sempre que houver uma atualização central ou de segurança disponível para o WordPress ou seus plugins, iremos instalá-las automaticamente para você e garantir que esteja tudo em dia. Você pode focar no que realmente importa na vida!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-md-6 col-sm-12 mb-30 mb-0-xl"><img className="mb-30 lazy-load-image lazy-loaded-src" width="290px" data-src="assets/images/wordpress-hosting-2020/automated-daily-backups-a583d187f0.jpg" src="assets/images/wordpress-hosting-2020/automated-daily-backups-a583d187f0.jpg" alt="Acelere o WordPress Com 10 Passos Fáceis" />
-            <div className="p-0">
-              <div>
-                <div>
-                  <h5 style={{lineHeight: '2.5rem'}} className="mh-0 mh-60-md mh-0-xxl mb-15 mb-5-md mb-20-xxl">Backups Diários Automatizados<span className="label text-white background-content-lilac border-radius-15 pt-5 pb-5 pr-10 pl-10 ml-10 white-space-no-wrap d-none">Em breve</span></h5>
-                  <p className="text-h-dark-gray paragraph">Sempre cuidamos de você (e do seu site)! Os backups de todos os arquivos e dados do seu site são criados automaticamente para que você possa garantir que seus dados estão são e salvos.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div className="pt-35 pt-40-sm pt-50-lg pt-65-xxl">
       <div className="container">
         <h2 className="text-h-meteorite-dark text-center">Está procurando mais alguma coisa?</h2>
