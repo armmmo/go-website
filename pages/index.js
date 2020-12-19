@@ -48,8 +48,6 @@ export default function Home() {
         <link rel="preconnect" href="//apis.google.com" />
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
         <link rel="preconnect" href="//www.google-analytics.com" />
-        <link rel="dns-prefetch" href="//support.hostinger.io" />
-        <link rel="preconnect" href="//support.hostinger.io" />
         <link rel="shortcut icon" href="assets/images/favicons/favicon-97d9192479.ico" />
         <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/favicon-57x57-38caedd7ea.png" />
         <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/favicon-114x114-839ca9ebf6.png" />
@@ -95,6 +93,9 @@ export default function Home() {
         <script src="assets/additionaljsvue-114e50a8a0.js"></script>
         <script src="assets/vueapp-474dc5df66.js"></script>
         <script type="text/javascript" src="/assets/scripts.js"></script>
+
+        <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="e95e3a10-4ed2-4083-8367-16cd7b7d3fca";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
 
 
       </Head>
