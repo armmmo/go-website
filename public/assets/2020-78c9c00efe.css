@@ -44222,3 +44222,38 @@ body.lang-vi .dc-filter__value {
     z-index: 5;
     padding: 7.5px 0;
 }
+
+
+
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #00d61a;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 2px 2px 6px 2px #9999994a;
+    z-index: 100;
+}
+
+.my-float{
+    margin-top:10px;
+}
+
+.intercom-1ed15uv svg path {
+    fill: rgb(255, 255, 255);
+}
+
+.intercom-rkaeus * {
+    cursor: pointer;
+}
+
+.intercom-1ed15uv svg {
+    width: 14px;
+}
+
+
