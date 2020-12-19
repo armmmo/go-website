@@ -964,9 +964,17 @@ export default function Home() {
 
         <div className="box-whatsapp">
         </div>
-        <a href="https://api.whatsapp.com/send?phone=5511960373269&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
-          <i className="fa fa-whatsapp my-float"></i>
-        </a>
+
+        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+          <a href="https://api.whatsapp.com/send?phone=5511960373269&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
+            <i className="fa fa-whatsapp my-float"></i>
+          </a>        
+        }else{
+          <a href="https://web.whatsapp.com/send?phone=5511960373269&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
+            <i className="fa fa-whatsapp my-float"></i>
+          </a>  
+        }
+        
         <meta name="google-site-verification" content="c8lYJUmmC9bGRSxxnQg0Uy8okfesMTUMK5a5GP8xJLc" />
 
       
