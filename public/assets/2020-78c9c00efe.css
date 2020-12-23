@@ -7895,7 +7895,6 @@ button.bg-dark:hover {
 }
 
 .border {
-    border: 1px solid #dadce0 !important
 }
 
 .border-top {
@@ -17696,7 +17695,6 @@ span.big-no {
 }
 
 .border {
-    border: 1px solid #dadce0
 }
 
 .border-h-dark {
@@ -37364,7 +37362,6 @@ body[class*=h24] .footer-new-bottom__text {
     max-width: 320px;
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out;
-    border: solid 1px #e8e8e8;
     z-index: 1
 }
 
@@ -38376,7 +38373,6 @@ body .component-big-price .price-block {
 }
 
 .box {
-    border: 1px solid #dadce0;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     border-radius: 6px
