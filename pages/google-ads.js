@@ -744,11 +744,11 @@ export default function GoogleAds() {
             <div className="panel-group faq-block mt-15 mt-50-md mt-70-xxl" id="accordion" role="tablist" aria-multiselectable="true">
               <div className="panel panel-default border box-shadow border-radius-6 mt-20 mt-30-md">
                 <div className="panel-heading border-0" role="tab" id="heading1">
-                  <div className="faq-button" role="button" data-target="#collapse1" data-toggle="collapse" aria-expanded="true">
+                  <div className="faq-button collapsed" role="button" data-target="#collapse1" data-toggle="collapse" aria-expanded="true">
                     <h5 className="w-85">O que é o WordPress?</h5>
                   </div>
                 </div>
-                <div id="collapse1" className="panel-collapse collapse show" role="tabpanel">
+                <div id="collapse1" className="panel-collapse collapse" role="tabpanel">
                   <div className="panel-body text-h-dark-gray paragraph fw-400 fw-600-md">
                     <p className>O WordPress é um sistema de gestão de conteúdo do mais alto nível. Ele é a melhor ferramenta de criação de sites no mundo hoje. É fácil de usar, eficiente, bem construído e altamente customizável, com milhões de plugins, temas e tutoriais disponíveis na internet. Desde classificados de empregos até blogs, portfólios digitais e lojas e ecommerce; todos os tipos de site podem ser (e são) turbinados pelo CMS WordPress. Muitos sites de renome têm o WordPress rodando por trás das cenas; TechCrunch, The New Yorker e Sony Music são alguns exemplos.</p>
                   </div>
@@ -756,11 +756,11 @@ export default function GoogleAds() {
               </div>
               <div className="panel panel-default border box-shadow border-radius-6 mt-20 mt-30-md">
                 <div className="panel-heading border-0" role="tab" id="heading2">
-                  <div className="faq-button" role="button" data-target="#collapse2" data-toggle="collapse" aria-expanded="true">
+                  <div className="faq-button collapsed" role="button" data-target="#collapse2" data-toggle="collapse" aria-expanded="true">
                     <h5 className="w-85">Para que o WordPress é usado?</h5>
                   </div>
                 </div>
-                <div id="collapse2" className="panel-collapse collapse show" role="tabpanel">
+                <div id="collapse2" className="panel-collapse collapse" role="tabpanel">
                   <div className="panel-body text-h-dark-gray paragraph fw-400 fw-600-md">
                     <p className>O WordPress está atualmente no coração de 34% dos sites da internet; o que é muito mais do que qualquer outra ferramenta ou framework. Isso mostra o quão versátil, multipropósito e eficiente é o WordPress. Não importa se você é um desenvolvedor web ou dono de pequeno negócio; o WordPress vai aparecer numa conversa sobre criação de site.</p>
                     <p className="mt-20">Não importa se você está pensando em criar um portfólio digital ou se está pensando em criar um índice de empregos para o seu negócio; se você quer começar a vender seus produtos online ou se quer criar um blog para o site da sua empresa; o WordPress pode ser a resposta.</p>
@@ -771,11 +771,11 @@ export default function GoogleAds() {
               </div>
               <div className="panel panel-default border box-shadow border-radius-6 mt-20 mt-30-md">
                 <div className="panel-heading border-0" role="tab" id="heading3">
-                  <div className="faq-button" role="button" data-target="#collapse3" data-toggle="collapse" aria-expanded="true">
+                  <div className="faq-button collapsed" role="button" data-target="#collapse3" data-toggle="collapse" aria-expanded="true">
                     <h5 className="w-85">O que é hospedagem WordPress?</h5>
                   </div>
                 </div>
-                <div id="collapse3" className="panel-collapse collapse show" role="tabpanel">
+                <div id="collapse3" className="panel-collapse collapse" role="tabpanel">
                   <div className="panel-body text-h-dark-gray paragraph fw-400 fw-600-md">
                     <p className>Assim como você aluga um apartamento para armazenar todas as coisas que você possui na sua casa, você aluga uma hospedagem WordPress para armazenar todos os arquivos e pastas que compõe seu site. Normalmente, uma hospedagem WordPress significa um host de servidores da web otimizados e ajustados para executar sites WordPress com máximo desempenho.</p>
                     <p className="mt-20">A instalação da hospedagem WordPress na Hostinger leva apenas um clique. Dentro de alguns momentos da instalação, você estará pronto para ajustar seu site e adicionar conteúdo como quiser. Ele vem com plugins de cache pré-instalados e aprimoramentos de segurança que ajudam você a ficar online mais rápido do que imagina!</p>
@@ -784,11 +784,11 @@ export default function GoogleAds() {
               </div>
               <div className="panel panel-default border box-shadow border-radius-6 mt-20 mt-30-md">
                 <div className="panel-heading border-0" role="tab" id="heading4">
-                  <div className="faq-button" role="button" data-target="#collapse4" data-toggle="collapse" aria-expanded="true">
+                  <div className="faq-button collapsed" role="button" data-target="#collapse4" data-toggle="collapse" aria-expanded="true">
                     <h5 className="w-85">O que é Hospedagem WordPress Gerenciada?</h5>
                   </div>
                 </div>
-                <div id="collapse4" className="panel-collapse collapse show" role="tabpanel">
+                <div id="collapse4" className="panel-collapse collapse" role="tabpanel">
                   <div className="panel-body text-h-dark-gray paragraph fw-400 fw-600-md">
                     <p className>Uma hospedagem gerenciada do WordPress tem como responsabilidades a otimização do site/ servidor, ajustes técnicos, gerenciamento de atualizações, etc. Enquanto a turma da Hostinger mantém em dia a lista de coisas que tem pra fazer, você tem tempo suficiente para se concentrar no que é mais importante: produzir e publicar conteúdo e gerar mais tráfego.</p>
                     <p className="mt-20">Além disso, uma hospedagem gerenciada do WordPress vem com servidores que foram ajustados precisamente para a execução do WordPress. Além de uma instalação simples, também otimizamos tudo e aplicamos medidas de segurança, para que, em alguns instantes, seu site esteja pronto para ser publicado.</p>
@@ -798,11 +798,11 @@ export default function GoogleAds() {
               </div>
               <div className="panel panel-default border box-shadow border-radius-6 mt-20 mt-30-md">
                 <div className="panel-heading border-0" role="tab" id="heading5">
-                  <div className="faq-button" role="button" data-target="#collapse5" data-toggle="collapse" aria-expanded="true">
+                  <div className="faq-button collapsed" role="button" data-target="#collapse5" data-toggle="collapse" aria-expanded="true">
                     <h5 className="w-85">Qual a diferença entre Hospedagem de Site e hospedagem WordPress?</h5>
                   </div>
                 </div>
-                <div id="collapse5" className="panel-collapse collapse show" role="tabpanel">
+                <div id="collapse5" className="panel-collapse collapse" role="tabpanel">
                   <div className="panel-body text-h-dark-gray paragraph fw-400 fw-600-md">
                     <p className>A principal diferença entre uma hospedagem de site simples e uma hospedagem WordPress é que essa última é construída com o único propósito de impulsionar sites WordPress. Isso significa que os servidores usados para uma hospedagem WordPress são configurados de tal maneira que eles podem rodar qualquer quantidade de sites WordPress com máximo desempenho e velocidade. Fazer o mesmo com uma simples hospedagem de sites iria exigir vários ajustes no nível da máquina, instalações de plugins e ajustes de memória.</p>
                     <p className="mt-20">Além da velocidade e desempenho, a hospedagem WordPress Hostinger também vem com medidas de segurança pré-configuradas. Você não precisa configurar regras de firewall ou executar testes de malware, como faria em uma hospedagem de site simples. Você se preocupa em criar conteúdo de alta qualidade e promover seu site.</p>
@@ -812,11 +812,11 @@ export default function GoogleAds() {
               </div>
               <div className="panel panel-default border box-shadow border-radius-6 mt-20 mt-30-md">
                 <div className="panel-heading border-0" role="tab" id="heading6">
-                  <div className="faq-button" role="button" data-target="#collapse6" data-toggle="collapse" aria-expanded="true">
+                  <div className="faq-button collapsed" role="button" data-target="#collapse6" data-toggle="collapse" aria-expanded="true">
                     <h5 className="w-85">Como criar um site WordPress?</h5>
                   </div>
                 </div>
-                <div id="collapse6" className="panel-collapse collapse show" role="tabpanel">
+                <div id="collapse6" className="panel-collapse collapse" role="tabpanel">
                   <div className="panel-body text-h-dark-gray paragraph fw-400 fw-600-md">
                     <p className>A melhor parte de criar um site WordPress é que qualquer um pode fazer o seu! Veja como:</p>
                     <li className="bullet mt-20">Use a pesquisa de domínio da Hostinger para escolher um nome de domínio para seu site.</li>
