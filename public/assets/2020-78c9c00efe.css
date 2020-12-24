@@ -12874,7 +12874,7 @@ a.text-h-primary:hover {
 .footer-new-holder-right-holder__text,
 .footer-new-list-holder__item a,
 .footer-new-list__title {
-    color: #2f1c6a !important
+    color: black !important
 }
 
 .dark-legacy {
@@ -13068,7 +13068,7 @@ a.text-h-primary:hover {
 }
 
 .meteorite-dark {
-    background-color: #2f1c6a !important
+    background-color: black !important
 }
 
 .text-h-meteorite {
@@ -13680,7 +13680,7 @@ html {
     font-family: Muli, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #2f1c6a
+    color: black
 }
 
 button:hover {
@@ -14094,7 +14094,7 @@ h5 {
 }
 
 .link {
-    color: #2f1c6a !important;
+    color: black !important;
     text-decoration: underline !important
 }
 
@@ -14138,7 +14138,7 @@ h5 {
 .zyro-subtitle {
     font-weight: 800;
     font-size: 1.5rem;
-    color: #2f1c6a;
+    color: black;
     letter-spacing: 2px
 }
 
@@ -14310,11 +14310,11 @@ i.pricing-table-2020-tooltip {
     background-image: url(images/backgrounds/wordpress-hosting-2020-background-5108562c89.svg)
 }*/
 
-@media (max-width:575.98px) {
+/*@media (max-width:575.98px) {
     .wordpress-hosting-header-2020 {
         background-image: url(images/backgrounds/wordpress-hosting-2020-background-mobile-be00746378.svg)
     }
-}
+}*/
 
 .cloud-hosting-header-2020 {
     background-image: url(images/backgrounds/cloud-hosting-2020-background-eca608b285.svg);
@@ -17851,8 +17851,10 @@ span.big-no {
 }
 
 .box-shadow {
-    -webkit-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
+    /*-webkit-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)*/
+    border-radius: 10px;
+    border: 2px #eaeaea8f solid;
 }
 
 .overflow-unset {
@@ -37659,7 +37661,7 @@ body[class*=h24] .footer-new-bottom__text {
 }
 
 .pricing-table--new-2020 .pricing-table-tooltip {
-    border-bottom: 1px solid #2f1c6a
+    border-bottom: 1px solid black
 }
 
 @media (min-width:1200px) {
@@ -38399,10 +38401,6 @@ body .component-big-price .price-block {
     }
 }
 
-.box-shadow {
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1)
-}
 
 .timer-2020 .wrapper {
     background: #fff;
@@ -39578,7 +39576,7 @@ body.lang-vi .dc-filter__value {
 }
 
 .card-hover-link.active .border-cent-os {
-    border-bottom: 2px solid #2f1c6a
+    border-bottom: 2px solid black
 }
 
 .card-hover-link.active .border-cent-os .card-image-centos-color {
@@ -39618,7 +39616,7 @@ body.lang-vi .dc-filter__value {
 }
 
 .text-color-cent-os {
-    color: #2f1c6a
+    color: black
 }
 
 .text-color-ubuntu {
