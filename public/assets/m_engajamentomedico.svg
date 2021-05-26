@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 75 75" style="enable-background:new 0 0 75 75;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#333333;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	
+		.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#333333;stroke:#333333;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#333333;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:#D3EDF4;stroke:#333333;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#0197C2;stroke:#333333;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g>
+	<path class="st0" d="M60.18,63.57l0.22-4.42c0.18-4.66-3.51-8.54-8.17-8.54H25.88c-5.27,0-9.57,4.06-9.81,9.33l-0.18,3.63H60.18z"
+		/>
+	<path id="XMLID_1_" class="st1" d="M48.71,31.72c5.39-22.77-8.24-8.17-15.87-18.65c-0.42-0.85-1.15-1.76-2.3-1.63
+		c-4.54,0.61-2.3,6.36-4.12,6.36c-6.72-8.24-6.18,9.69,0.67,10.6c1.7,0.42,17.8,3.94,17.8,3.94l-6.24-2.54l5.81,1.03l-4.9-1.27
+		l5.81-0.3l-6.9-2.91l6.6,0.61c0.3,1.45,1.27,4.42,2.54,5.33L48.71,31.72z"/>
+	<path class="st0" d="M30.55,47.47l0.79,16.11h12.98l2.71-24.77h2.18c1.76,0,3.21-1.33,3.33-3.03c0.12-1.94-1.45-3.45-3.27-3.45
+		l-3.51,0.36l0.24-2.3c0.24-2.3-1.64-4.3-3.94-4.3H26.49l-1.7,12.66C24.25,42.86,26.85,46.56,30.55,47.47z"/>
+	<polyline class="st2" points="22.37,52.37 25.95,58.85 20.62,58.85 22.55,63.57 	"/>
+	<polyline class="st2" points="52.89,51.77 49.38,58.25 54.71,58.25 52.55,63.57 	"/>
+	<path class="st0" d="M35.76,47.1c0,0-2.48,1.27-6.24,0"/>
+	<circle class="st3" cx="24.61" cy="35.3" r="3.63"/>
+	<circle class="st3" cx="34.36" cy="35.3" r="3.63"/>
+	<line class="st2" x1="28.19" y1="35.3" x2="30.06" y2="35.3"/>
+	<line class="st2" x1="38.3" y1="34.39" x2="46.17" y2="32.75"/>
+	<circle class="st4" cx="24.07" cy="36.02" r="1.51"/>
+	<circle class="st4" cx="33.82" cy="36.02" r="1.51"/>
+	<polygon class="st5" points="44.36,63.57 45.63,51.22 38.18,57.4 30.85,51.1 31.46,63.57 	"/>
+</g>
+</svg>

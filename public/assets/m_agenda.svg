@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 75 75" style="enable-background:new 0 0 75 75;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#333333;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#6369AE;stroke:#333333;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#333333;stroke:#9BA0C4;stroke-width:2;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#333333;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#333333;stroke-width:2;stroke-miterlimit:10;}
+	.st6{fill:#333333;}
+</style>
+<g>
+	<path class="st0" d="M58.31,59.29H18.1c-0.32,0-0.59-0.21-0.59-0.59V22.44c0-0.32,0.21-0.59,0.59-0.59h40.15
+		c0.32,0,0.59,0.21,0.59,0.59v36.31C58.84,59.02,58.57,59.29,58.31,59.29z"/>
+	<path class="st1" d="M24.98,26.34"/>
+	<path class="st1" d="M24.98,17.54"/>
+	<path class="st1" d="M51.48,26.34"/>
+	<path class="st1" d="M51.48,17.54"/>
+	<g>
+		<path class="st2" d="M17.52,33.43V22.34c0-0.32,0.21-0.59,0.59-0.59h40.15c0.32,0,0.59,0.21,0.59,0.59v11.14"/>
+		<circle class="st3" cx="26.9" cy="27.78" r="2.35"/>
+		<circle class="st3" cx="49.3" cy="27.78" r="2.35"/>
+		<line class="st4" x1="26.9" y1="17.38" x2="26.9" y2="27.36"/>
+		<line class="st4" x1="49.3" y1="17.38" x2="49.3" y2="27.62"/>
+	</g>
+	<line class="st5" x1="17.68" y1="33.43" x2="58.73" y2="33.43"/>
+</g>
+<g>
+	<path class="st6" d="M33.21,49.58v-1.6l4.56-6.92h2.6v6.62h1.3v1.91h-1.3v2.59h-2.21v-2.59h-4.95V49.58z M35.52,47.67h2.65v-4.13
+		L35.52,47.67z"/>
+</g>
+</svg>
