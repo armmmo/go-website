@@ -1,6 +1,6 @@
 import React from 'react'
 
-class App extends React.Component {
+export default function pagar() {
     openCheckout() {
       let checkout = new PagarMeCheckout.Checkout({
         encryption_key: "ek_test_QL5ckR2Gj8LgmmO3G1MnOAph8UrpAD",
@@ -27,6 +27,5 @@ class App extends React.Component {
     render() {
       return <button onClick={this.openCheckout}>Abrir o Checkout</button>;
     }
-  }
+}
   
-  ReactDOM.render(<App />, document.getElementById("react-container"));
