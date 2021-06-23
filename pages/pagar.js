@@ -1,32 +1,48 @@
 import React from 'react';
+import Script from 'next/script';
 
-export default function componentName() {
+var PagarMeCheckou;
 
-    openCheckout = () => {
-        let checkout = new PagarMeCheckout.Checkout({
-          encryption_key: "ek_test_QL5ckR2Gj8LgmmO3G1MnOAph8UrpAD",
-          success: function(data) {
-            alert(JSON.stringify(data));
-          },
-          error: function(err) {
-            alert(JSON.stringify(err));
-          },
-          close: function() {
-            alert("The modal has been closed.");
-          }
-        });
-    
-        checkout.open({
-          amount: 8000,
-          buttonText: "Pagar",
-          customerData: "true",
-          createToken: "false",
-          paymentMethods: "credit_card"
-        });
+class Pagar extends React.Component {
+
+    openCheckout() {
+        console.log(window.PagarMeCheckout)
+      let checkout = new PagarMeCheckout.Checkout({
+        encryption_key: "ek_test_QL5ckR2Gj8LgmmO3G1MnOAph8UrpAD",
+        success: function(data) {
+          alert(JSON.stringify(data));
+        },
+        error: function(err) {
+          alert(JSON.stringify(err));
+        },
+        close: function() { 
+          alert("The modal has been closed.");
+        }
+      }); 
+  
+      checkout.open({
+        amount: 8000,
+        buttonText: "Pagar",
+        customerData: "true",
+        createToken: "false",
+        paymentMethods: "credit_card"
+      });
     }
 
-  return (
-    <button onClick={ openCheckout }>Abrir o Checkout</button>
-  );
-}
+    render() { 
+        return(
+            <>
+                <Script src="https://assets.pagar.me/checkout/checkout.js" strategy="beforeInteractive"  onLoad={() => {
+                        this.setState({ PagarMeCheckout: window.PagarMeCheckout })
+                }} />   
+                <button onClick={this.openCheckout}>Abrir o Checkout</button>
+            </>
+        )
+        
+    }
+  }
+
+  export default Pagar
+
+  
   
