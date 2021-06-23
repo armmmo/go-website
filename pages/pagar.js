@@ -26,7 +26,7 @@ export default function componentName() {
     }
 
   return (
-    <button onClick={() => openCheckout }>Abrir o Checkout</button>
+    <button onClick={ openCheckout }>Abrir o Checkout</button>
   );
 }
   
