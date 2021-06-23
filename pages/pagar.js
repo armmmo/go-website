@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function componentName() {
 
-    openCheckout = () => {
+    function openCheckout () {
         let checkout = new PagarMeCheckout.Checkout({
           encryption_key: "ek_test_QL5ckR2Gj8LgmmO3G1MnOAph8UrpAD",
           success: function(data) {
@@ -26,7 +26,7 @@ export default function componentName() {
     }
 
   return (
-    <button onClick={this.openCheckout}>Abrir o Checkout</button>
+    <button onClick={openCheckout()}>Abrir o Checkout</button>
   );
 }
   
