@@ -23,12 +23,15 @@ class Pagar extends React.Component {
       checkout.open({
         amount: 8000,
         buttonText: "Pagar",
-        customerData: "true",
+        customerData: "false",
         createToken: "false",
-        paymentMethods: "credit_card"
+        paymentMethods: "credit_card",
+        maxInstallments: "8",
+        freeInstallments: "1" ,
+        interestRate: "2.0"
       });
     }
-
+ 
     render() { 
         return(
             <>
