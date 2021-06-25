@@ -68,7 +68,6 @@ section {
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "montserrat,sans-serif";
-    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
@@ -13676,7 +13675,6 @@ input.hb--h60 {
 
 body,
 html {
-    font-size: 10px;
     font-family: Muli, sans-serif;
     font-weight: 400;
     font-style: normal;

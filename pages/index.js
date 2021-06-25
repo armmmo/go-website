@@ -2,7 +2,7 @@ import Head from 'next/head'
 // import '../public/assets/scripts.js';
 import React, { useEffect, useState } from 'react';
 
-
+import Header from '../components/hrader';
 
 
 export default function GoogleAds() {
@@ -97,7 +97,7 @@ export default function GoogleAds() {
 
         </Head>
 
-        <div id = "nav" className = "cart-off" >
+        {/* <div id = "nav" className = "cart-off" >
           <div id="navigation2" className=" bestwishes2020">
                   <div className="z-index-200 fixed-container">
                       <div className="w-100 z-index-200 navigation-holder d-flex flex-column colored-transparent">
@@ -184,9 +184,11 @@ export default function GoogleAds() {
                       </div>
                   </div>
           </div> 
-        </div>   
+        </div>    */}
 
-        <div className = "header-padding wordpress-hosting-header-2020 bg-lazy header-bg text-white bg-lazy-loaded" >
+
+        <Header/>
+     <div className = "header-padding wordpress-hosting-header-2020 bg-lazy header-bg text-white bg-lazy-loaded" >
           <div className="container container-2020">
             <div className="row justify-content-center align-items-center">
               <div className="col-12 col-md-10 col-lg-5 mb-50 mb-0-lg align-items-center">
